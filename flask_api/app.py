@@ -31,7 +31,7 @@ async def health_check():
 # Nouveau endpoint pour appeler l'API externe
 @app.get('/call_external_api')
 async def call_external_api():
-    url = 'https://impactco2.fr/api/v1/chauffage'  # Remplacez cette URL par l'API que vous souhaitez appeler
+    url = 'https://impactco2.fr/api/v1/chauffage'  
     return requests.get(url).json()
 
 # Lancer le serveur avec uvicorn depuis la ligne de commande :
