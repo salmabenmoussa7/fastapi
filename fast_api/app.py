@@ -78,6 +78,3 @@ async def call_external_api():
     response = requests.get(url)
     return response.json()
 
-
-# Lancer le serveur avec uvicorn depuis la ligne de commande :
-# uvicorn app:app --reload
