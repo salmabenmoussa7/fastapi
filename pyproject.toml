@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "projet"
+name = "FastApi"
 version = "0.1.0"
-description = "créer une api"
+description = "Créer une fastapi"
 authors = ["salma benmoussa"]
 readme = "README.md"
 
